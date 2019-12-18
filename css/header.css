@@ -1,0 +1,42 @@
+* {
+box-sizing: border-box;    
+padding: 0;
+margin: 0;
+
+  
+}
+body {
+background-color: #879598; 
+background-size: cover;
+text-align: center;
+font-size: 16px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav.desktop_menu {
+font-size: 1.4rem;
+}
+    
+    
+nav.desktop_menu ul {
+display: flex;
+flex-flow: row wrap;
+list-style: none;
+overflow: hidden;
+}
+    
+    
+nav.desktop_menu li a {
+text-decoration: none;
+display: block; 
+color: rgb(0, 0, 0);
+padding: 10px;
+}
+    
+
+    
+
+
+
+
+

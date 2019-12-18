@@ -1,0 +1,101 @@
+section.card-box {
+    text-align: center;
+    width: 30%;
+    padding-bottom: 50px;
+    margin: 50px auto;
+    background: #cecaca99;
+    overflow: hidden;
+    flex-flow: row wrap;
+    display: flex; 
+  
+}
+.card-box h1 {
+    font-size: 1rem;
+    color:black;
+    justify-content: center;
+    width: 100%;
+}
+.card-box h2 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    color:black;
+}
+
+.card-box > .card1 {
+    width: 100%;
+    min-width: 200px; 
+    flex-flow: row wrap;
+    align-items: center;
+
+}
+.card-box a {
+    text-decoration: none;
+    color: #333;
+}
+.card-box img {
+    display: block;
+    max-width: 100%;
+   
+}
+
+/* Media query for medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* changing font-size for tablet screen size*/
+    .card-box h2{
+        font-size: 1.2rem;
+    }
+    .card-box h1 {
+        font-size: 2rem;
+    }
+    p.info {
+        font-size: 1.1rem;
+    }
+    .card1 p{
+        font-size: 0.9rem;
+    }
+}
+
+/* Media query for targetting small devices only (landscape phones only) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* changing font-size for landscape screen size*/
+    .card-box h2{
+        font-size: 1rem;
+    }
+    .card-container h1 {
+        font-size: 1.5rem;
+    }
+    p.info {
+        font-size: 0.9rem;
+    }
+    .card1 p{
+        font-size: 0.8rem;
+    }
+    /* displaying content of puff-container in TWO columns for landscape screen size */
+    .card-box > .card1 {
+        width: 50%;
+        margin-bottom: 10px; 
+    }
+}
+
+/* Media query for targetting extra small devices only (portrait phones only, less than 576px) */
+@media (max-width: 575.98px) {
+    /* changing font-size for portrait screen size*/
+    .card-box h2{
+        font-size: 1rem;
+        margin: 0.7rem 0;
+    }
+    .card-box h1 {
+        font-size: 1.5rem;
+    }
+    p.info {
+        font-size: 0.8rem;
+    }
+    .card1 p{
+        font-size: 0.8rem;
+    }
+    /* displaying content of puff-container in ONE column for portrait screen size */
+    .card-box > .card1 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+ }
