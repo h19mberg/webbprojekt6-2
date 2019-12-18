@@ -49,6 +49,7 @@
      text-decoration: none;
     }
     
+
   .validera {
        display: flex;
        flex-direction: column;   
@@ -63,7 +64,34 @@
       display: flex;
       padding-top: 20px; 
     }
+nav.desktop_menu ul {
+display: flex;
+flex-flow: row wrap;
+list-style: none;
+overflow: hidden;
+}
     
+    
+nav.desktop_menu li a {
+text-decoration: none;
+display: block; 
+color: rgb(0, 0, 0);
+padding: 10px;
+}
+    
+.logo img {
+    width: 13%;
+    float: left;
+    margin-left: 6%;
+    
+    }
+    
+    li {
+        list-style-type: none;
+        text-decoration: none;
+    }
+    
+
   .externa,li {
   list-style-type: none;
   display: flex;
